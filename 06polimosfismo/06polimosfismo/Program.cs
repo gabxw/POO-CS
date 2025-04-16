@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using _06polimosfismo;
+
+Animal animal = new Animal();
+Animal cachorro = new Cachorro();
+Animal gato = new Gato();
+
+animal.Som();
+cachorro.Som();
+gato.Som();
